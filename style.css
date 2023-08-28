@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 
 * {
@@ -17,7 +17,26 @@ body {
     height: 100%;
 }
 
-#nav{
+#cursor {
+    height: 20px;
+    width: 20px;
+    background-color: #95c11e;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 99;
+}
+
+#cursorbck {
+    height: 450px;
+    width: 450px;
+    background-color: #96c11e2b;
+    border-radius: 50%;
+    position: fixed;
+    filter: blur(40px);
+    z-index: 9;
+}
+
+#nav {
     height: 135px;
     width: 100%;
     display: flex;
@@ -29,16 +48,16 @@ body {
     z-index: 99;
 }
 
-#nav img{
+#nav img {
     height: 75px;
 }
 
-#nav h4{
+#nav h4 {
     font-weight: 500;
     text-transform: uppercase;
 }
 
-video{
+video {
     height: 100%;
     width: 100%;
     object-fit: cover;
@@ -46,12 +65,12 @@ video{
     z-index: -1;
 }
 
-#main{
+#main {
     position: relative;
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-#page1{
+#page1 {
     width: 100%;
     height: 100vh;
     position: relative;
@@ -60,9 +79,10 @@ video{
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    z-index: 10;
 }
 
-#page1 h1{
+#page1 h1 {
     font-size: 140px;
     font-weight: 900;
     width: 75%;
@@ -72,7 +92,7 @@ video{
     margin-bottom: 20px;
 }
 
-#page1 h1::before{
+#page1 h1::before {
     content: "EAT. DRINK. PLAY.";
     position: absolute;
     top: -6px;
@@ -82,20 +102,21 @@ video{
     z-index: -1;
 }
 
-#page1 h2{
+#page1 h2 {
     font-size: 30px;
     font-weight: 800;
     margin-top: 20 px;
     margin-bottom: 20px;
 }
 
-#page1 p{
+#page1 p {
     font-size: 20px;
     font-weight: 400;
     width: 50%;
 }
 
-#page2{
+#page2 {
     height: 100vh;
     width: 100%;
-} 
+    z-index: 10;
+}
