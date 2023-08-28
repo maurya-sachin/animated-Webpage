@@ -89,13 +89,13 @@ video {
     line-height: .86;
     letter-spacing: .03em;
     position: relative;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
 #page1 h1::before {
     content: "EAT. DRINK. PLAY.";
     position: absolute;
-    top: -6px;
+    top: -4px;
     left: -8px;
     color: #000;
     text-shadow: -1px -1px 0 #95c11e, 1px -1px 0 #95c11e, -1px 1px 0 #95c11e, 1px 1px 0 #95c11e;
@@ -105,8 +105,7 @@ video {
 #page1 h2 {
     font-size: 30px;
     font-weight: 800;
-    margin-top: 20 px;
-    margin-bottom: 20px;
+    margin: 20px;
 }
 
 #page1 p {
@@ -148,13 +147,13 @@ video {
     font-weight: 900;
     margin-right: 10px;
     transition: all linear 0.4s;
-    top: -6px;
+    top: -4px;
     left: -8px;
     color: #000;
     text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
 
-#scroller h4:hover{
+#scroller h4:hover {
     color: #95c11e;
     text-shadow: -1px -1px 0 #95c11e, 1px -1px 0 #95c11e, -1px 1px 0 #95c11e, 1px 1px 0 #95c11e;
 }
@@ -167,4 +166,49 @@ video {
     to {
         transform: translate(-100%);
     }
+}
+
+#about-us {
+    margin: 50px 0;
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 50px;
+}
+
+#about-us img {
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.img1 {
+    height: 165px;
+    width: 165px;
+}
+
+.img2 {
+    height: 220px;
+    width: 165px;
+}
+
+#about-us-in {
+    width: 54%;
+    text-align: center;
+}
+
+#about-us-in h3 {
+    font-size: 50px;
+    font-weight: 800;
+    margin: 25px 0;
+}
+
+#about-us-in p {
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px
 }
