@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
 
 * {
     margin: 0;
@@ -40,6 +43,7 @@ video{
     width: 100%;
     object-fit: cover;
     position: fixed;
+    z-index: -1;
 }
 
 #main{
@@ -62,32 +66,32 @@ video{
     font-size: 140px;
     font-weight: 900;
     width: 75%;
-    position: relative;
-    text-transform: uppercase;
     line-height: .86;
     letter-spacing: .03em;
-    margin-bottom: 10px;
+    position: relative;
+    margin-bottom: 20px;
 }
 
 #page1 h1::before{
     content: "EAT. DRINK. PLAY.";
     position: absolute;
+    top: -6px;
+    left: -8px;
     color: #000;
-    top: -4px;
-    left: -4px;
-    -webkit-text-stroke: 1px red;
+    text-shadow: -1px -1px 0 #95c11e, 1px -1px 0 #95c11e, -1px 1px 0 #95c11e, 1px 1px 0 #95c11e;
+    z-index: -1;
 }
 
 #page1 h2{
     font-size: 30px;
     font-weight: 800;
-    margin-top: 15px;
+    margin-top: 20 px;
     margin-bottom: 20px;
 }
 
 #page1 p{
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 400;
     width: 50%;
 }
 
