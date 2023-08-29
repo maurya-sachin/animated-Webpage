@@ -221,6 +221,7 @@ video {
     align-items: center;
     position: relative;
     z-index: 10;
+    margin:40px 0;
 }
 
 .cards {
@@ -284,6 +285,7 @@ video {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin:  50px 0;
 }
 
 #green-strip img{
