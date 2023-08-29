@@ -277,3 +277,26 @@ video {
 .cards:hover {
     transform: rotate3d(-1, -1, 0, 20deg);
 }
+
+#green-strip{
+    height: 45vh;
+    background: linear-gradient(to left bottom, #4a9e3d,#b3e824);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#green-strip img{
+    height: 100%;
+    object-fit: cover;
+    width: 12%;
+}
+
+#green-strip h4{
+    width: 45%;
+    text-align: center;
+    color: #000;
+    line-height: 1.6;
+    font-size: 31px;
+    font-weight: 800;
+}
