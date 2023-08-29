@@ -17,7 +17,7 @@ navh4.forEach(function (elem) {
     elem.addEventListener("mouseleave", function () {
         cursr.style.scale = 1
         cursr.style.border = "0px solid #95C11E"
-        cursr.style.backgroundColor = "#95C!!E"
+        cursr.style.backgroundColor = "#95C11E"
     })
 })
 
