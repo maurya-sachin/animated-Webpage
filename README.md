@@ -1,2 +1,5 @@
 # sidcupfamilygolf.com-clone
-a clone of sidcup family golf club using HTML CSS &amp; javaScript
+a landing page of sidcup family golf club using HTML CSS & javaScript
+font resources: Google Font- Montserat
+icon resource: https://www.remixicon.com
+gsap cdn used for cursor scrolltrigger
