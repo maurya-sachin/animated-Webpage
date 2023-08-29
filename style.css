@@ -60,7 +60,7 @@ body::-webkit-scrollbar-thumb{
     align-items: center;
     position: fixed;
     justify-content: flex-start;
-    gap: 45px;
+    gap: 50px;
     padding: 0 125px;
     z-index: 99;
 }
@@ -91,6 +91,7 @@ body::-webkit-scrollbar-thumb{
 }
 
 #nav .navBtn:hover {
+    color: #000;
     background: linear-gradient(to left bottom, #4a9e3d, #b3e824);
 }
 
