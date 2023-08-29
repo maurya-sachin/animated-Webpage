@@ -72,6 +72,7 @@ body::-webkit-scrollbar-thumb{
 #nav h4 {
     font-weight: 500;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 #nav h4:hover {
@@ -179,7 +180,7 @@ video {
     scale: 2;
 }
 
-#page1 #cookie {
+#cookie {
     height: 45px;
     width: 45px;
     position: absolute;
@@ -190,9 +191,10 @@ video {
     left: 1%;
     bottom: 2%;
     border-radius: 50%;
+    position: fixed;
 }
 
-#page1 #cookie img {
+#cookie img {
     height: 67%;
     width: 67%;
 }
