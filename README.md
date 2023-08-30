@@ -5,4 +5,4 @@ icon resource: https://www.remixicon.com
 gsap cdn used for cursor scrolltrigger
 
 
-Live server:https://maurya-sachin.github.io/sidcupfamilygolf.com-clone/
+Live server:https://maurya-sachin.github.io/animated-Webpage/
